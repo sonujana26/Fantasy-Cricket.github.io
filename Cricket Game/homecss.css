@@ -1,0 +1,234 @@
+/*main image */
+#mainimg{
+    margin: 0;
+    background-image: url(layouts/main1.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+
+/*body*/
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/*logo txt*/
+#logo{
+    font-size:50px;
+    color:white;
+    margin-top: 40px;
+    margin-left: 50px;
+    position: absolute;;
+}
+
+/*heading in image*/
+#head{
+    font-size:30px;
+    color:white;
+    margin-top: 200px;
+    margin-left: 50px;
+    position: absolute
+ 
+}
+
+/*login button css*/
+.gobutton{
+    color: #5DBCD2;
+    font-family: Montserrat;
+    background: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: -0.4px;
+    text-decoration: none;
+    border-radius: 4px;
+    padding: 12px 60px;
+    display: inline-block;
+
+}
+
+/*login button position*/
+#gobut{
+    margin-left: 50px;
+    position: absolute;
+    margin-top: 300px
+}
+
+/*main login button*/
+#login{
+    margin-left: 60%;
+    position: absolute;
+    margin-top: 100px;
+    background-color:transparent;
+    color:white;
+    font-family: Montserrat;
+    border:2px solid #5DBCD2;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: -0.4px;
+    text-decoration: none;
+    border-radius: 4px;
+    padding: 12px 60px;
+    display: inline-block;
+
+}
+
+/*register button*/
+#register{
+    margin-left: 1000px;
+    position: absolute;
+    margin-top: 170px
+}
+
+/*how to play head*/
+.howtoplay{
+    text-align: center;
+}
+
+/*how to play sub head*/
+.sub{
+    text-align:left;
+    margin-left: 550px; 
+}
+
+
+/* login  register css*/
+
+input[type=text], input[type=password], input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+.loginbutton,.signupbtn {
+    background-color: #5DBCD2;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 15%;
+}
+
+/*
+.loginbutton{
+    margin-left: 40%
+}
+*/
+
+button:hover {
+    opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+.cancel2btn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+
+/* Float cancel and signup buttons and add an equal width */
+.cancel2btn, .signupbtn {
+    float: left;
+    width: 15%;
+ }
+
+
+.signupbtn{
+    float: right;
+    padding: 10px 18px;
+} 
+
+/* Center the image and position the close button */
+.closecontainer {
+    text-align: center;
+    margin: 10px 0 12px 0;
+    position: relative;
+}
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 50%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+    
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+
